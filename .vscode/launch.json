@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SuperfarmaxApplication<superfarmax>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.kteam.superfarmax.SuperfarmaxApplication",
+            "projectName": "superfarmax",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
