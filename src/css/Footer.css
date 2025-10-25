@@ -1,0 +1,64 @@
+:root {
+    --color-main: rgb(0, 57, 145);
+}
+
+.footer {
+    background-color: var(--color-main);
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+    padding: 60px 80px;
+}
+
+.logoFooter img {
+    width: 200px;
+}
+.footer h3 {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    margin-bottom: 8px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #cfd8ff;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.infoFooter ul li {
+    color: #d4dcff;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.derechosFooter {
+    background-color: var(--color-main);
+    text-align: center;
+    padding: 15px;
+    color: lightgray;
+    font-size: 0.9rem;
+    border-top: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+.derechosFooter p {
+    margin: 0;
+}

@@ -1,0 +1,71 @@
+.consejos {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.consejoscontainer {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.consejo {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 2px 8px #0000001a;
+    text-align: left;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.consejo h3 {
+    color: rgb(0, 57, 145);
+    margin-bottom: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(0, 57, 145);
+    margin: 50px 0 30px;
+}
+
+.splide__track {
+    overflow: hidden;
+}
+
+.splide__arrow {
+    background: rgba(0, 0, 0, 0.3);
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    color: white;
+}
+
+.splide__arrow--prev {
+    left: -40px;
+}
+
+.splide__arrow--next {
+    right: -40px;
+}
+
+.splide__pagination {
+    bottom: -25px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.splide__pagination__page {
+    width: 10px;
+    height: 10px;
+    background: rgb(0, 57, 145);
+    opacity: 0.5;
+}
+
+.splide__pagination__page.is-active {
+    background-color: rgb(4, 90, 220);
+}

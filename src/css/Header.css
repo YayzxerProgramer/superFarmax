@@ -1,0 +1,279 @@
+:root {
+    --color-main: rgb(0, 57, 145);
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 80px;
+    gap: 10%;
+    padding: 0 20px;
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+    border-bottom: var(--color-main) 0px solid;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--color-main);
+    border-radius: 30px;
+    overflow: hidden;
+    width: 600px;
+    background: white;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #333;
+}
+
+.search-btn {
+    background: var(--color-main);
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.Buscar {
+    width: 25px;
+    height: 25px;
+}
+
+.imgiconosh {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-right: 3%;
+}
+
+.imgiconos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#login {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: #ffffff;
+}
+
+#login:hover {
+    color: var(--color-main);
+    font-weight: bold;
+}
+
+#carrito-btn {
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: #ffffff;
+}
+
+#carrito-btn:hover {
+    color: var(--color-main);
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu {
+    text-decoration: none;
+}
+
+.Logo {
+    width: 200px;
+    height: 5rem;
+    margin-left: 30%;
+    padding: 10px;
+}
+
+.navegacion {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    width: 30%;
+}
+
+.separador {
+    margin-top: 80px;
+    width: 100%;
+    background-color: var(--color-main);
+    height: 55px;
+    padding: 9px;
+    align-items: center;
+}
+
+.separador ul {
+    display: flex;
+    gap: 10%;
+    width: 50%;
+    list-style: none;
+    margin-left: 6%;
+    font-size: 1rem;
+    white-space: nowrap;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.separador li a {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    text-align: center;
+}
+
+.separador a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.separador ul li:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.separador li img {
+    width: 20px;
+    height: 20px;
+}
+
+.ventana {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9998;
+}
+
+.ventana-cerrar {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #999;
+}
+
+.textoForm {
+    margin: 0;
+    color: #666;
+}
+
+.contenidoTexto {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 0 0 16px 16px;
+    margin-top: 0;
+}
+
+.btnForm {
+    background: none;
+    border: none;
+    color: var(--color-main);
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.cl-signIn-start, .cl-signUp-start {
+    border-radius: 16px 16px 0 0;
+}
+
+.cl-sign-in {
+    width: 100%;
+    height: 600px;
+    overflow: visible;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.carrito {
+    position: fixed;
+    top: 0;
+    right: -450px;
+    width: 450px;
+    height: 100%;
+    background: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+    animation: slideIn 0.3s forwards;
+    z-index: 1001;
+    padding: 20px;
+}
+
+@keyframes slideIn {
+    from {
+        right: -450px;
+    }
+
+    to {
+        right: 0;
+    }
+}
+
+.carrito.open {
+    right: 0;
+}
+
+.cl-footerAction {
+    display: none;
+}
+
+.cl-footer {
+    display: none;
+}
+
+.cl-userButtonPopoverFooter {
+    display: none;
+}
+
+.cl-internal-pe6vm4 {
+    display: none;
+}

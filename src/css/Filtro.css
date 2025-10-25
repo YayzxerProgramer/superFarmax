@@ -1,0 +1,79 @@
+.filtro-caja {
+    width: 260px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    position: sticky;
+    top: 100px;
+    margin-top: 120px;
+}
+
+.filtro-encabezado {
+    background: var(--color-main);
+    color: #fff;
+    font-weight: bold;
+    padding: 12px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.filtro-item {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.filtro-item:hover {
+    background: #f9f9f9;
+}
+
+.filtro-item .icono {
+    font-size: 14px;
+    color: var(--color-main);
+    transition: transform 0.3s ease;
+}
+
+.icono.rotar {
+    transform: rotate(180deg);
+}
+
+.filtro-contenido {
+    padding: 10px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 14px;
+    color: #333;
+}
+
+.filtro-contenido label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.filtro-precio {
+    padding: 12px;
+}
+
+.filtro-precio input[type=range] {
+    width: 100%;
+    accent-color: var(--color-main);
+}
+
+.precio-valores {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 6px;
+    color: #333;
+}
